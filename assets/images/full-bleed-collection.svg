@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 2100" width="2800" height="2100">
+  <defs>
+    <linearGradient id="studioWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eaebee"/>
+      <stop offset="62%" stop-color="#e0e2e6"/>
+      <stop offset="68%" stop-color="#d2d5dc"/>
+      <stop offset="100%" stop-color="#e7e8ec"/>
+    </linearGradient>
+    <radialGradient id="pedShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.28)"/>
+      <stop offset="60%" stop-color="rgba(0,0,0,0.08)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <linearGradient id="blueCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#225ca8"/><stop offset="32%" stop-color="#5a9ff0"/><stop offset="85%" stop-color="#1d4d8f"/><stop offset="100%" stop-color="#2b6cc4"/>
+    </linearGradient>
+    <linearGradient id="orangeCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c23b00"/><stop offset="32%" stop-color="#ff7636"/><stop offset="85%" stop-color="#b53600"/><stop offset="100%" stop-color="#fe5100"/>
+    </linearGradient>
+    <linearGradient id="yellowCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cfa200"/><stop offset="32%" stop-color="#ffe052"/><stop offset="85%" stop-color="#bf9500"/><stop offset="100%" stop-color="#ffcd01"/>
+    </linearGradient>
+    <linearGradient id="purpleCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#583696"/><stop offset="32%" stop-color="#9e78e6"/><stop offset="85%" stop-color="#4c2d85"/><stop offset="100%" stop-color="#7c55c6"/>
+    </linearGradient>
+    <linearGradient id="greenCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00802c"/><stop offset="32%" stop-color="#2fd66c"/><stop offset="85%" stop-color="#006e25"/><stop offset="100%" stop-color="#00b241"/>
+    </linearGradient>
+    <linearGradient id="pinkCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd4690"/><stop offset="32%" stop-color="#ff96d8"/><stop offset="85%" stop-color="#a83b7f"/><stop offset="100%" stop-color="#eb6fbd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="2800" height="2100" fill="url(#studioWall)"/>
+
+  <!-- Architectural Display Wheels / Plinths in Background -->
+  <circle cx="620" cy="1120" r="440" fill="#4190de" opacity="0.92"/>
+  <circle cx="620" cy="1120" r="110" fill="#fe5100"/>
+
+  <circle cx="1420" cy="1040" r="490" fill="#ffcd01" opacity="0.95"/>
+  <circle cx="1420" cy="1040" r="125" fill="#7c55c6"/>
+
+  <circle cx="2200" cy="1140" r="430" fill="#00b241" opacity="0.92"/>
+  <circle cx="2200" cy="1140" r="108" fill="#eb6fbd"/>
+
+  <!-- Studio Table Plinth -->
+  <rect x="180" y="1520" width="2440" height="140" rx="24" fill="#f7f7f9"/>
+  <rect x="180" y="1630" width="2440" height="30" fill="#d8dae0"/>
+
+  <!-- Bottle 1: Cleanse (Blue) -->
+  <ellipse cx="480" cy="1535" rx="140" ry="22" fill="url(#pedShadow)"/>
+  <g transform="translate(345, 760)">
+    <rect x="65" y="0" width="105" height="20" rx="6" fill="url(#blueCyl)"/>
+    <rect x="92" y="0" width="86" height="72" rx="8" fill="url(#blueCyl)"/>
+    <rect x="65" y="68" width="140" height="115" rx="8" fill="url(#blueCyl)"/>
+    <rect x="0" y="182" width="270" height="590" rx="28" fill="url(#blueCyl)"/>
+    <text x="135" y="325" text-anchor="middle" font-family="Archivo, sans-serif" font-size="46" font-weight="700" letter-spacing="3" fill="#fff">SUPPLE</text>
+    <circle cx="205" cy="465" r="20" fill="#ffcd01"/><circle cx="205" cy="465" r="6" fill="#fe5100"/>
+    <text x="135" y="540" text-anchor="middle" font-family="Archivo, sans-serif" font-size="34" font-weight="700" fill="#fff">CLOUD</text>
+    <text x="135" y="582" text-anchor="middle" font-family="Archivo, sans-serif" font-size="34" font-weight="700" fill="#fff">BOUNCE</text>
+  </g>
+
+  <!-- Bottle 2: Serum (Orange) -->
+  <ellipse cx="890" cy="1535" rx="135" ry="22" fill="url(#pedShadow)"/>
+  <g transform="translate(765, 830)">
+    <rect x="60" y="0" width="100" height="18" rx="6" fill="url(#orangeCyl)"/>
+    <rect x="85" y="0" width="80" height="68" rx="8" fill="url(#orangeCyl)"/>
+    <rect x="60" y="64" width="130" height="105" rx="8" fill="url(#orangeCyl)"/>
+    <rect x="0" y="168" width="250" height="535" rx="26" fill="url(#orangeCyl)"/>
+    <text x="125" y="305" text-anchor="middle" font-family="Archivo, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#000">SUPPLE</text>
+    <circle cx="190" cy="430" r="19" fill="#ffcd01"/><circle cx="190" cy="430" r="6" fill="#4190de"/>
+    <text x="125" y="500" text-anchor="middle" font-family="Archivo, sans-serif" font-size="32" font-weight="700" fill="#000">PEPTIDE</text>
+    <text x="125" y="538" text-anchor="middle" font-family="Archivo, sans-serif" font-size="32" font-weight="700" fill="#000">DEW</text>
+  </g>
+
+  <!-- Jar 3: Barrier Cream (Yellow) -->
+  <ellipse cx="1370" cy="1535" rx="195" ry="24" fill="url(#pedShadow)"/>
+  <g transform="translate(1170, 1020)">
+    <rect x="12" y="0" width="376" height="110" rx="22" fill="url(#yellowCyl)"/>
+    <rect x="0" y="112" width="400" height="405" rx="40" fill="url(#yellowCyl)"/>
+    <text x="200" y="235" text-anchor="middle" font-family="Archivo, sans-serif" font-size="50" font-weight="700" letter-spacing="3" fill="#000">SUPPLE</text>
+    <circle cx="305" cy="300" r="22" fill="#4190de"/><circle cx="305" cy="300" r="6.5" fill="#fe5100"/>
+    <text x="200" y="365" text-anchor="middle" font-family="Archivo, sans-serif" font-size="34" font-weight="700" fill="#000">WHIPPED</text>
+    <text x="200" y="405" text-anchor="middle" font-family="Archivo, sans-serif" font-size="34" font-weight="700" fill="#000">CERAMIDE</text>
+  </g>
+
+  <!-- Bottle 4: Flash Polish (Purple) -->
+  <ellipse cx="1840" cy="1535" rx="135" ry="22" fill="url(#pedShadow)"/>
+  <g transform="translate(1715, 810)">
+    <rect x="60" y="0" width="130" height="115" rx="8" fill="url(#purpleCyl)"/>
+    <rect x="0" y="115" width="250" height="605" rx="28" fill="url(#purpleCyl)"/>
+    <text x="125" y="265" text-anchor="middle" font-family="Archivo, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#fff">SUPPLE</text>
+    <circle cx="190" cy="400" r="19" fill="#4190de"/><circle cx="190" cy="400" r="6" fill="#ffcd01"/>
+    <text x="125" y="475" text-anchor="middle" font-family="Archivo, sans-serif" font-size="32" font-weight="700" fill="#fff">FLASH</text>
+    <text x="125" y="515" text-anchor="middle" font-family="Archivo, sans-serif" font-size="32" font-weight="700" fill="#fff">POLISH</text>
+  </g>
+
+  <!-- Bottle 5: Hydro-Mist (Green) -->
+  <ellipse cx="2260" cy="1535" rx="135" ry="22" fill="url(#pedShadow)"/>
+  <g transform="translate(2135, 780)">
+    <rect x="85" y="0" width="80" height="70" rx="8" fill="url(#greenCyl)"/>
+    <rect x="58" y="68" width="134" height="110" rx="8" fill="url(#greenCyl)"/>
+    <rect x="0" y="176" width="250" height="575" rx="28" fill="url(#greenCyl)"/>
+    <text x="125" y="315" text-anchor="middle" font-family="Archivo, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#000">SUPPLE</text>
+    <circle cx="190" cy="445" r="19" fill="#ffcd01"/><circle cx="190" cy="445" r="6" fill="#7c55c6"/>
+    <text x="125" y="520" text-anchor="middle" font-family="Archivo, sans-serif" font-size="32" font-weight="700" fill="#000">HYDRO</text>
+    <text x="125" y="560" text-anchor="middle" font-family="Archivo, sans-serif" font-size="32" font-weight="700" fill="#000">MIST</text>
+  </g>
+</svg>

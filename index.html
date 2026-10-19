@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supple | Clinical Skincare for Skin You Want to Wear</title>
+  <meta name="description" content="Clinically tested skincare designed to be mixed, layered, and matched. Cleansers, serums, barrier creams, and masks made for all humans, all ages, all skin types." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       STICKY HEADER (1:1 Funner Architecture)
+       ======================================================================== -->
+  <header class="site-header">
+    <!-- Left: 4-Circle Rotating Emblem -->
+    <div class="header-left">
+      <a href="#top" data-home-link aria-label="Supple Home" class="brand-crest-link">
+        <svg class="brand-crest-svg" viewBox="0 0 1599.9984 400" xmlns="http://www.w3.org/2000/svg">
+          <g class="crest-wheel">
+            <circle cx="199.9998" cy="200" fill="#508edc" r="199.9998"></circle>
+            <path d="m278.7016 67.5403-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+            <path d="m354.4639 203.451-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+            <path d="m270.0305 344.0145-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+            <path d="m160.7993 63.9472-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+            <path d="m97.0601 298.7814-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+            <path d="m125.6117 187.7786v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+            <circle cx="199.9998" cy="200" fill="#fe5000" r="45.43712"></circle>
+          </g>
+          <g class="crest-wheel">
+            <circle cx="599.9994" cy="200" fill="#fe5000" r="199.9998"></circle>
+            <path d="m678.7012 67.5403-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+            <path d="m754.4635 203.451-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+            <path d="m670.0301 344.0145-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+            <path d="m560.7989 63.9472-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+            <path d="m497.0597 298.7814-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+            <path d="m525.6113 187.7786v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+            <circle cx="599.9994" cy="200" fill="#5c8cda" r="45.43712"></circle>
+          </g>
+          <g class="crest-wheel">
+            <circle cx="999.999" cy="200.0002" fill="#ffcd00" r="199.9998"></circle>
+            <path d="m1078.7008 67.5405-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+            <path d="m1154.4631 203.4512-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+            <path d="m1070.0297 344.0147-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+            <path d="m960.7985 63.9474-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+            <path d="m897.0593 298.7816-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+            <path d="m925.6109 187.7788v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+            <circle cx="999.9965" cy="200.0002" fill="#7d55c7" r="45.43712"></circle>
+          </g>
+          <g class="crest-wheel">
+            <circle cx="1399.9986" cy="199.9998" fill="#00b140" r="199.9998"></circle>
+            <path d="m1478.7004 67.5401-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+            <path d="m1554.4627 203.4508-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+            <path d="m1470.0293 344.0143-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+            <path d="m1360.7981 63.947-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+            <path d="m1297.0589 298.7812-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+            <path d="m1325.6105 187.7784v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+            <circle cx="1399.9986" cy="199.9998" fill="#ff6fbd" r="45.43712"></circle>
+          </g>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Center: Color-Coded Category Pill Navigation + By Function Dropdown -->
+    <nav class="header-nav" aria-label="Main Navigation">
+      <a href="#products-section" data-nav-category="cleanse" style="--btn-color: #4190de" class="button button-nav">Cleanse</a>
+      <a href="#products-section" data-nav-category="treat" style="--btn-color: #fe5100" class="button button-nav">Treat</a>
+      <a href="#products-section" data-nav-category="hydrate" style="--btn-color: #ffcd01" class="button button-nav">Hydrate</a>
+      <a href="#products-section" data-nav-category="barrier" style="--btn-color: #b680d2" class="button button-nav">Barrier</a>
+
+      <div class="function-dropdown-wrap">
+        <button type="button" id="by-function-btn" aria-expanded="false" style="--btn-color: #00b241" class="button button-nav function-btn">
+          <span style="display:flex; align-items:center; gap: 16px;">
+            <span>By Function</span>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="plus-icon" aria-hidden="true">
+              <path class="line-h" d="M0 5.24512H10.5" stroke="currentColor" stroke-width="2.6"></path>
+              <path class="line-v" d="M5.25391 0L5.25391 10.5" stroke="currentColor" stroke-width="2.6"></path>
+            </svg>
+          </span>
+        </button>
+
+        <div id="by-function-menu" class="function-menu" role="menu">
+          <button type="button" class="function-item" data-nav-function="hydrate">Hydrate</button>
+          <button type="button" class="function-item" data-nav-function="plump">Plump</button>
+          <button type="button" class="function-item" data-nav-function="brighten">Brighten</button>
+          <button type="button" class="function-item" data-nav-function="calm">Calm</button>
+          <button type="button" class="function-item" data-nav-function="smooth">Smooth</button>
+          <button type="button" class="function-item" data-nav-function="shield">Shield</button>
+          <button type="button" class="function-item" data-nav-function="cleanse">Cleanse</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Right: Cart Trigger & Mobile Menu Button -->
+    <div class="header-right">
+      <button type="button" id="open-cart-btn" aria-label="Open cart" class="cart-trigger-btn type-title">
+        <span>Cart</span>
+        <span id="header-cart-count">1</span>
+      </button>
+
+      <button type="button" aria-label="Open menu" class="mobile-menu-btn" data-nav-category="all">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN CONTENT (Home View + Interactive PDP View)
+       ======================================================================== -->
+  <main id="maincontent">
+
+    <!-- HOME VIEW -->
+    <div id="home-view">
+
+      <!-- SECTION 1: Hero Split (imageTwoUp) -->
+      <section class="hero-section">
+        <div class="hero-grid">
+          <div class="hero-media-cell">
+            <img src="assets/images/hero-model.jpg" alt="Editorial portrait of model with glowing dewy skin" />
+          </div>
+          <div class="hero-media-cell">
+            <img src="assets/images/hero-bottle.jpg" alt="Supple cobalt blue matte bottle still life" />
+          </div>
+
+          <div class="hero-overlay-wrap">
+            <div class="hero-gradient-scrim"></div>
+            <div class="hero-sticky-copy">
+              <h2 class="type-headings">Wear your skin</h2>
+              <p class="type-body">Clinical-grade skincare made for personal ritual, not perfection. Clean, dermatologist-tested formulas designed to mix, layer, and play with — for bouncier, brighter, calmer, smoother, more hydrated, or more-of-whatever-you-want skin.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: Product Carousel ("Performance-powered play") -->
+      <section id="products-section" class="section-block">
+        <div class="section-header-bar">
+          <div class="section-header-copy">
+            <h2 id="carousel-heading" class="type-headings">Performance-powered play</h2>
+            <p id="carousel-subheading" class="type-body">21 formulas. Made to be mixed, layered, and matched.</p>
+          </div>
+          <div style="display:flex; align-items:center; gap: 8px; flex-shrink: 0;">
+            <button type="button" id="clear-filter-btn" class="button button-outline" style="display:none;">Reset Filter</button>
+            <a href="#products-section" data-nav-category="all" class="button button-primary">Shop All</a>
+          </div>
+        </div>
+
+        <div class="carousel-wrapper">
+          <button type="button" aria-label="Previous" class="carousel-arrow prev">
+            <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26 8L14 20L26 32" stroke="black" stroke-width="2.8"></path>
+            </svg>
+          </button>
+          <button type="button" aria-label="Next" class="carousel-arrow next">
+            <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+              <path d="M26 8L14 20L26 32" stroke="black" stroke-width="2.8"></path>
+            </svg>
+          </button>
+
+          <div id="product-carousel-track" class="carousel-track">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Brand Story Split ("Made you look") -->
+      <section class="split-story-section">
+        <div class="split-story-media-wrap">
+          <div class="split-story-media">
+            <img src="https://cdn.sanity.io/images/49bk2ju6/production/e5df7e050d250d9a70a2f8bde158f5d7fd32c659-3000x4000.jpg" alt="Smiling model with natural halo afro and radiant skin" loading="lazy" />
+          </div>
+        </div>
+        <div class="split-story-copy-wrap">
+          <div class="split-story-copy">
+            <h2 class="type-headings">Made you look</h2>
+            <p class="type-body">Supple is designed to be seen and formulated to perform. Our formulas are clean, clinically tested, and thoughtfully complex — crafted with biocompatible actives and a single allergen-free botanical essence, without sulfates, parabens, or heavy silicones. Packaging is made using 100% recycled plastic and mono-material pumps, with no secondary boxes.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: Full-Width Architectural Still Life -->
+      <section>
+        <div class="full-bleed-media">
+          <img src="assets/images/full-bleed-collection.svg" alt="Supple full collection still life on architectural display wheels" loading="lazy" />
+        </div>
+      </section>
+
+      <!-- SECTION 5: Collection Carousel ("Play with your skin") -->
+      <section class="section-block">
+        <div class="section-header-bar">
+          <div class="section-header-copy">
+            <h2 class="type-headings">Play with your skin</h2>
+          </div>
+          <div style="flex-shrink: 0;">
+            <a href="#products-section" data-nav-category="all" class="button button-primary">Shop All</a>
+          </div>
+        </div>
+
+        <div class="carousel-wrapper">
+          <button type="button" aria-label="Previous" class="carousel-arrow prev">
+            <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26 8L14 20L26 32" stroke="black" stroke-width="2.8"></path>
+            </svg>
+          </button>
+          <button type="button" aria-label="Next" class="carousel-arrow next">
+            <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+              <path d="M26 8L14 20L26 32" stroke="black" stroke-width="2.8"></path>
+            </svg>
+          </button>
+
+          <div id="collection-carousel-track" class="carousel-track">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- INTERACTIVE PDP VIEW (1:1 Funner Product Page) -->
+    <section id="pdp-view" class="pdp-view" aria-live="polite"></section>
+
+  </main>
+
+  <!-- ========================================================================
+       SLIDE-OUT CART DRAWER
+       ======================================================================== -->
+  <div id="cart-backdrop" class="cart-backdrop"></div>
+  <aside id="cart-drawer" class="cart-drawer" aria-label="Shopping Cart">
+    <div class="cart-drawer-header">
+      <div style="display:flex; align-items:center; gap: 10px;">
+        <div class="crest-donut" style="width:28px; height:28px; --outer-color:#4190de; --inner-color:#fe5100;">
+          <div class="crest-donut-inner" style="width:7px; height:7px;"></div>
+        </div>
+        <h2 class="type-title">Your Cart (<span id="drawer-cart-count">1</span>)</h2>
+      </div>
+      <button type="button" id="close-cart-btn" class="button button-outline" style="height:32px; padding: 0 14px;">Close</button>
+    </div>
+
+    <div class="cart-shipping-bar-wrap">
+      <p id="cart-shipping-text" class="type-body">You are $37 away from free shipping.</p>
+      <div class="cart-shipping-track">
+        <div id="cart-shipping-fill" class="cart-shipping-fill"></div>
+      </div>
+    </div>
+
+    <div id="cart-items-container" class="cart-items-container"></div>
+
+    <div class="cart-drawer-footer">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
+        <span class="type-title">Subtotal</span>
+        <span id="cart-subtotal-price" class="type-title">$38</span>
+      </div>
+      <p class="type-body" style="color: var(--color-gray-500); margin-bottom: 16px;">Shipping and taxes calculated at checkout</p>
+      <button type="button" class="button button-primary button-hover-color" style="width:100%; --button-hover-color:#00b241;" onclick="this.textContent='Redirecting to Checkout...'; setTimeout(()=>this.textContent='Checkout', 1400);">
+        Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       FOOTER & GIANT BAUHAUS VECTOR WORDMARK (1:1 Funner Footer)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div>
+      <div class="footer-banner-desktop">
+        <img src="https://cdn.sanity.io/images/49bk2ju6/production/bd746cd13a1a099f40a1095b9dd65638a983756e-4200x2100.jpg" alt="Collection back packaging lineup" loading="lazy" />
+      </div>
+      <div class="footer-banner-mobile">
+        <img src="https://cdn.sanity.io/images/49bk2ju6/production/ad2a7a5a135f68609eb2b1e135a518e1b78f6f5b-5212x6921.jpg" alt="Collection display wheels mobile" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <!-- Left 5 Cols: Emblem + Newsletter -->
+        <div class="footer-brand-col">
+          <div style="height: 43px;">
+            <svg class="brand-crest-svg" viewBox="0 0 1599.9984 400" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="199.9998" cy="200" fill="#508edc" r="199.9998"></circle>
+              <path d="m278.7016 67.5403-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+              <path d="m354.4639 203.451-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+              <path d="m270.0305 344.0145-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+              <path d="m160.7993 63.9472-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+              <path d="m97.0601 298.7814-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+              <path d="m125.6117 187.7786v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+              <circle cx="199.9998" cy="200" fill="#fe5000" r="45.43712"></circle>
+              <circle cx="599.9994" cy="200" fill="#fe5000" r="199.9998"></circle>
+              <path d="m678.7012 67.5403-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+              <path d="m754.4635 203.451-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+              <path d="m670.0301 344.0145-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+              <path d="m560.7989 63.9472-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+              <path d="m497.0597 298.7814-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+              <path d="m525.6113 187.7786v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+              <circle cx="599.9994" cy="200" fill="#5c8cda" r="45.43712"></circle>
+              <circle cx="999.999" cy="200.0002" fill="#ffcd00" r="199.9998"></circle>
+              <path d="m1078.7008 67.5405-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+              <path d="m1154.4631 203.4512-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+              <path d="m1070.0297 344.0147-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+              <path d="m960.7985 63.9474-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+              <path d="m897.0593 298.7816-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+              <path d="m925.6109 187.7788v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+              <circle cx="999.9965" cy="200.0002" fill="#7d55c7" r="45.43712"></circle>
+              <circle cx="1399.9986" cy="199.9998" fill="#00b140" r="199.9998"></circle>
+              <path d="m1478.7004 67.5401-28.3986 49.1873c-3.1362 5.4333-10.084 7.2945-15.5173 4.1576s-7.2945-10.084-4.1576-15.5173l28.3986-49.1865-19.6749-11.3598-28.3986 49.1873c-9.4101 16.2992-3.8257 37.1411 12.4735 46.5512 16.2984 9.4101 37.1403 3.8257 46.5512-12.4735l28.3978-49.1873-19.6741-11.359z" fill="#000"></path>
+              <path d="m1554.4627 203.4508-42.6009 0 42.5905-22.718.0104-22.7187-90.874 0 0 22.7187 42.5909 0-42.5909 22.718 0 22.7187 90.874 0z" fill="#000"></path>
+              <path d="m1470.0293 344.0143-21.3004-36.8934 40.9748 25.5345 19.675-11.3594-45.437-78.6992-19.675 11.3594 21.2954 36.8848-40.9698-25.5258-19.675 11.3594 45.437 78.6992z" fill="#000"></path>
+              <path d="m1360.7981 63.947-11.3593-19.6748-59.0243 34.0777 45.437 78.6992 19.675-11.3594-11.3593-19.6748 29.5122-17.0389-11.3592-19.6747-29.5122 17.0389-11.3593-19.6748z" fill="#000"></path>
+              <path d="m1297.0589 298.7812-11.3593 19.6748 59.0243 34.0777 45.437-78.6992-59.0243-34.0777-11.3593 19.6748 39.3493 22.7183-5.6796 9.8373-19.6743-11.359-11.3593 19.6748 19.6743 11.359-5.6796 9.8373z" fill="#000"></path>
+              <path d="m1325.6105 187.7784v-25.7485l-28.2851 15.0876c-6.0861-9.2927-16.5732-15.4422-28.5113-15.4422-18.8202 0-34.0777 15.2567-34.0777 34.0777v34.0777h90.8742v-22.7187h-22.7187v-7.2155l22.7187-12.1182zm-45.4367 19.3337h-22.7187v-11.359c0-6.2739 5.0858-11.3598 11.359-11.3598 6.2739 0 11.3598 5.0858 11.3598 11.3598z" fill="#000"></path>
+              <circle cx="1399.9986" cy="199.9998" fill="#ff6fbd" r="45.43712"></circle>
+            </svg>
+          </div>
+
+          <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('input').value='Subscribed — Welcome to Supple!';">
+            <h3 class="type-headings">Supple in your inbox</h3>
+            <div class="newsletter-input-wrap">
+              <input type="email" required placeholder="Enter your email" aria-label="Supple in your inbox" class="newsletter-input type-body" />
+              <button type="submit" aria-label="Subscribe" class="newsletter-submit">
+                <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.2998 9.37646L20.9155 9.37647" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                  <path d="M21.3002 9.37685C18.6078 9.26228 13.2231 7.48648 13.2231 1.2998" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                  <path d="M21.3002 9.37706C18.6078 9.49163 13.2231 11.2674 13.2231 17.4541" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right 7 Cols: 4 Link Groups -->
+        <div class="footer-links-col">
+          <div class="footer-nav-group">
+            <h3 class="type-title">Discover</h3>
+            <ul>
+              <li><a href="#products-section" data-nav-category="cleanse" class="footer-nav-link type-body">Cleanse</a></li>
+              <li><a href="#products-section" data-nav-category="treat" class="footer-nav-link type-body">Treat</a></li>
+              <li><a href="#products-section" data-nav-category="hydrate" class="footer-nav-link type-body">Hydrate</a></li>
+              <li><a href="#products-section" data-nav-category="barrier" class="footer-nav-link type-body">Barrier</a></li>
+              <li><a href="#products-section" data-nav-category="all" class="footer-nav-link type-body">Shop All</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-group">
+            <h3 class="type-title">Learn</h3>
+            <ul>
+              <li><a href="#products-section" onclick="event.preventDefault(); openProductDetail('cloud-bounce');" class="footer-nav-link type-body">Clinical Studies</a></li>
+              <li><a href="#products-section" onclick="event.preventDefault(); openProductDetail('peptide-dew');" class="footer-nav-link type-body">Ingredients</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-group">
+            <h3 class="type-title">Contact</h3>
+            <ul>
+              <li><a href="#top" data-home-link class="footer-nav-link type-body">Instagram</a></li>
+              <li><a href="#top" data-home-link class="footer-nav-link type-body">Carry Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-group">
+            <h3 class="type-title">Credits</h3>
+            <ul>
+              <li><a href="#top" data-home-link class="footer-nav-link type-body">Site by Neuro Commerce</a></li>
+              <li><a href="#top" data-home-link class="footer-nav-link type-body">Privacy &amp; Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Giant Architectural Pipe-and-Circle Vector Graphic -->
+      <div class="footer-giant-svg-wrap">
+        <svg class="footer-giant-svg" viewBox="0 0 1405 442" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_supple_footer)">
+            <path d="M176.993 45.6609C176.993 69.87 157.387 89.4956 133.202 89.4956C109.016 89.4956 89.4087 69.8716 89.4087 45.6609C89.4087 21.4502 109.016 1.82617 133.202 1.82617C157.387 1.82617 176.993 21.4517 176.993 45.6609Z" fill="#4190DE"></path>
+            <path d="M138.548 36.0915C133.312 33.0652 126.618 34.8621 123.594 40.1014C120.571 45.3422 122.365 52.0428 127.6 55.0691C132.836 58.0955 139.53 56.2985 142.554 51.0593C145.577 45.8185 143.782 39.1179 138.548 36.0915Z" fill="#FE5100"></path>
+            <path d="M89.4086 133.328C89.4086 157.539 69.7987 177.162 45.6164 177.162C21.4341 177.162 1.82422 157.539 1.82422 133.328C1.82422 60.7026 60.6458 1.82617 133.201 1.82617C157.383 1.82617 176.993 21.4489 176.993 45.6601C176.993 69.8712 157.383 89.494 133.201 89.494C109.019 89.494 89.4086 109.117 89.4086 133.328ZM89.4086 133.328C89.4086 157.539 109.019 177.162 133.201 177.162C157.383 177.162 176.993 196.785 176.993 220.996C176.993 245.207 157.383 264.83 133.201 264.83C109.019 264.83 90.0851 284.452 90.0851 308.663V396.331C90.0851 420.542 70.4752 440.165 46.2929 440.165C22.1106 440.165 2.50067 420.542 2.50067 396.331M90.0851 396.339C90.0851 420.551 70.4752 440.173 46.2929 440.173C22.1106 440.173 2.50067 420.551 2.50067 396.339C2.50067 372.128 22.1106 352.505 46.2929 352.505C70.4752 352.505 90.0851 372.128 90.0851 396.339Z" stroke="currentColor" stroke-width="2.6" stroke-miterlimit="10"></path>
+            <path d="M352.344 308.493C352.344 332.702 332.738 352.328 308.553 352.328C284.368 352.328 264.76 332.704 264.76 308.493C264.76 284.282 284.368 264.658 308.553 264.658C332.738 264.658 352.344 284.284 352.344 308.493Z" fill="#7C55C6"></path>
+            <path d="M313.899 298.924C308.663 295.897 301.969 297.694 298.945 302.933C295.922 308.174 297.716 314.875 302.951 317.901C308.187 320.928 314.881 319.131 317.905 313.891C320.928 308.651 319.133 301.95 313.899 298.924Z" fill="#FFCD01"></path>
+            <path d="M177.197 220.801C177.197 196.603 196.815 176.988 221.013 176.988C245.212 176.988 264.83 196.603 264.83 220.801C264.83 244.998 284.447 264.613 308.646 264.613C332.844 264.613 352.462 244.998 352.462 220.801C352.462 196.603 372.08 176.988 396.279 176.988C420.477 176.988 440.095 196.603 440.095 220.801C440.095 293.385 381.249 352.23 308.654 352.23M352.454 308.417C352.454 332.615 332.836 352.23 308.638 352.23C284.439 352.23 264.821 332.615 264.821 308.417C264.821 284.22 284.439 264.605 308.638 264.605C332.836 264.605 352.454 284.22 352.454 308.417Z" stroke="currentColor" stroke-width="2.6" stroke-miterlimit="10"></path>
+            <path d="M702.499 396.339C702.499 420.548 682.893 440.174 658.708 440.174C634.523 440.174 614.915 420.55 614.915 396.339C614.915 372.128 634.523 352.504 658.708 352.504C682.893 352.504 702.499 372.13 702.499 396.339Z" fill="#FE5100"></path>
+            <path d="M664.054 386.77C658.818 383.743 652.124 385.54 649.101 390.78C646.077 396.02 647.871 402.721 653.107 405.747C658.342 408.774 665.037 406.977 668.06 401.738C671.083 396.497 669.288 389.796 664.054 386.77Z" fill="#4190DE"></path>
+            <path d="M439.747 221.002C439.747 196.79 459.353 177.166 483.539 177.166C507.725 177.166 527.331 196.79 527.331 221.002V396.338C527.331 420.549 507.725 440.174 483.539 440.174C459.353 440.174 439.747 420.541 439.747 396.338V308.674C439.747 236.039 498.565 177.166 571.123 177.166C643.681 177.166 702.5 236.039 702.5 308.666V396.33M702.5 396.33C702.5 420.541 682.894 440.166 658.708 440.166C634.522 440.166 614.915 420.541 614.915 396.33C614.915 372.118 634.522 352.494 658.708 352.494C682.894 352.494 702.5 372.118 702.5 396.33Z" stroke="currentColor" stroke-width="2.6" stroke-miterlimit="10"></path>
+            <path d="M965.253 396.339C965.253 420.548 945.647 440.174 921.461 440.174C897.276 440.174 877.668 420.55 877.668 396.339C877.668 372.128 897.276 352.504 921.461 352.504C945.647 352.504 965.253 372.13 965.253 396.339Z" fill="#00B241"></path>
+            <path d="M926.807 386.77C921.572 383.743 914.878 385.54 911.854 390.78C908.831 396.02 910.624 402.721 915.86 405.747C921.096 408.774 927.79 406.977 930.813 401.738C933.837 396.497 932.042 389.796 926.807 386.77Z" fill="#EB6FBD"></path>
+            <path d="M702.5 308.674V396.338C702.5 420.541 722.106 440.174 746.292 440.174C770.478 440.174 790.084 420.549 790.084 396.338V221.002C790.084 196.79 770.478 177.166 746.292 177.166C722.106 177.166 702.5 196.79 702.5 221.002V308.674ZM702.5 308.674C702.5 236.039 761.319 177.166 833.877 177.166C906.434 177.166 965.253 236.039 965.253 308.666V396.33M965.253 396.33C965.253 420.541 945.647 440.166 921.461 440.166C897.275 440.166 877.669 420.541 877.669 396.33C877.669 372.118 897.275 352.494 921.461 352.494C945.647 352.494 965.253 372.118 965.253 396.33Z" stroke="currentColor" stroke-width="2.6" stroke-miterlimit="10"></path>
+            <path d="M1140.42 308.67C1140.42 332.879 1120.82 352.504 1096.63 352.504C1072.45 352.504 1052.84 332.88 1052.84 308.67C1052.84 284.459 1072.45 264.835 1096.63 264.835C1120.82 264.835 1140.42 284.461 1140.42 308.67Z" fill="#FFCD01"></path>
+            <path d="M1101.98 299.1C1096.74 296.074 1090.05 297.871 1087.02 303.11C1084 308.351 1085.79 315.052 1091.03 318.078C1096.27 321.104 1102.96 319.307 1105.98 314.068C1109.01 308.827 1107.21 302.127 1101.98 299.1Z" fill="#7C55C6"></path>
+            <path d="M1096.63 352.502C1120.82 352.502 1140.42 332.877 1140.42 308.666C1140.42 284.454 1120.82 264.83 1096.63 264.83M1096.63 352.502C1072.44 352.502 1052.84 332.877 1052.84 308.666C1052.84 284.454 1072.44 264.83 1096.63 264.83M1096.63 352.502C1120.82 352.502 1140.42 372.126 1140.42 396.338C1140.42 420.549 1120.82 440.174 1096.63 440.174C1072.44 440.174 1052.84 420.549 1052.84 396.338C1052.84 372.126 1072.44 352.502 1096.63 352.502ZM965.253 308.666C965.253 236.039 1024.07 177.166 1096.63 177.166C1120.82 177.166 1140.42 196.782 1140.42 220.993C1140.42 245.205 1120.82 264.83 1096.63 264.83M1228.01 308.666C1228.01 381.292 1169.19 440.166 1096.63 440.166" stroke="currentColor" stroke-width="2.6" stroke-miterlimit="10"></path>
+            <path d="M1403.18 221C1403.18 245.209 1383.57 264.835 1359.38 264.835C1335.2 264.835 1315.59 245.211 1315.59 221C1315.59 196.79 1335.2 177.166 1359.38 177.166C1383.57 177.166 1403.18 196.791 1403.18 221Z" fill="#EB6FBD"></path>
+            <path d="M1364.73 211.431C1359.49 208.405 1352.8 210.201 1349.78 215.441C1346.75 220.682 1348.55 227.382 1353.78 230.408C1359.02 233.435 1365.71 231.638 1368.74 226.399C1371.76 221.158 1369.96 214.457 1364.73 211.431Z" fill="#00B241"></path>
+            <path d="M1315.59 221.002C1315.59 196.79 1295.99 177.166 1271.79 177.166M1271.79 177.166C1247.6 177.166 1228.01 196.79 1228.01 221.002M1271.79 177.166C1247.61 177.166 1228.01 196.79 1228.01 221.002M1271.79 177.166C1295.98 177.166 1315.58 196.79 1315.58 221.002L1315.8 332.568V394.963C1315.8 418.646 1297.62 439.084 1273.99 440.125C1248.91 441.231 1228.22 421.2 1228.22 396.338M1228.01 221.002V309.583M1403.18 221.002C1403.18 245.213 1383.57 264.838 1359.39 264.838C1335.2 264.838 1315.6 245.213 1315.6 221.002C1315.6 196.79 1335.2 177.166 1359.38 177.166C1383.56 177.166 1403.17 196.79 1403.17 221.002H1403.18ZM1228.23 396.338C1228.23 420.549 1247.83 440.174 1272.01 440.174C1296.2 440.174 1315.8 420.549 1315.8 396.338C1315.8 372.126 1296.2 352.502 1272.01 352.502C1247.83 352.502 1228.23 372.126 1228.23 396.338Z" stroke="currentColor" stroke-width="2.6" stroke-miterlimit="10"></path>
+          </g>
+          <defs>
+            <clipPath id="clip0_supple_footer">
+              <rect width="1405" height="442" fill="white"></rect>
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- Bottom Copyright & Agency Credit Bar -->
+      <div class="footer-credit-bar">
+        <p class="type-body" style="color: var(--color-gray-500);">© 2026 SUPPLE LABS INC. ALL RIGHTS RESERVED.</p>
+        <a href="#top" data-home-link class="neuro-credit-pill type-body" aria-label="Site by Neuro Commerce">
+          <span class="neuro-credit-dot">
+            <span class="neuro-credit-dot-inner"></span>
+          </span>
+          <span>Site by <strong>Neuro Commerce</strong></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
