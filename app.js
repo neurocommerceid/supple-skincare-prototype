@@ -9,13 +9,14 @@ const PRODUCTS = [
     slug: 'cloud-bounce',
     title: 'Cloud Bounce Gel Cleanser',
     shortName: 'Cloud Bounce',
-    productType: 'Gel Cleanser',
+    productType: 'Pembersih Wajah Gel',
     category: 'cleanse',
+    categoryLabel: 'Pembersih',
     functions: ['cleanse', 'hydrate', 'calm'],
-    subtitle: 'Refreshing + pH Balancing',
-    cardDescription: 'The perfectly-balanced daily wash — deep pore cleansing and barrier hydration in equal measure',
-    shortPdpCopy: 'The universal, barrier-respecting daily gel cleanse.',
-    price: 38,
+    subtitle: 'Menyegarkan + Seimbangkan pH',
+    cardDescription: 'Pembersih harian dengan pH seimbang — membersihkan pori secara mendalam sekaligus menjaga hidrasi skin barrier',
+    shortPdpCopy: 'Pembersih gel harian yang lembut dan ramah untuk skin barrier.',
+    price: 289,
     reviews: 64,
     rating: 4.9,
     outerColor: '#4190de',
@@ -28,10 +29,10 @@ const PRODUCTS = [
       'assets/images/prod-1-hover.jpg'
     ],
     editorialImage: 'assets/images/hero-model.jpg',
-    details: 'Formulated at a skin-identical pH of 5.2, Cloud Bounce melts away daily SPF, excess sebum, and urban micro-pollutants without stripping intercellular lipids. Leaves skin bouncy, calm, and prepped for active layering.',
+    details: 'Diformulasikan dengan pH 5.2 yang identik dengan kulit alami, Cloud Bounce meluruhkan sisa sunscreen, sebum berlebih, dan polusi mikro tanpa mengikis lipid pelindung kulit. Kulit terasa kenyal, tenang, dan siap menyerap tahapan skincare berikutnya.',
     ingredients: 'Aqua/Water, Coco-Glucoside, Glycerin, Tremella Fuciformis (Snow Mushroom) Sporocarp Extract, Panthenol (Vitamin B5), Ectoin, Sodium PCA, Allantoin, Citric Acid.',
-    howToUse: 'Massage 1–2 pumps onto damp skin for 45 seconds until a dense micro-cloud lather forms. Rinse thoroughly with lukewarm water. Use AM and PM.',
-    clinical: '98% showed zero transepidermal water loss (TEWL) spike post-wash. 94% reported visibly softer, less reactive skin after 7 days in an independent 32-subject clinical study.',
+    howToUse: 'Pijat lembut 1–2 pump pada wajah yang basah selama 45 detik hingga terbentuk busa mikro selembut awan. Bilas hingga bersih dengan air hangat kuku. Gunakan pagi dan malam.',
+    clinical: '98% subjek tidak mengalami kehilangan kelembapan (TEWL) setelah mencuci wajah. 94% melaporkan kulit terasa lebih halus dan tenang dalam 7 hari berdasarkan uji klinis independen pada 32 subjek.',
     pairings: ['peptide-dew', 'whipped-ceramide', 'hydro-mist', 'the-architect']
   },
   {
@@ -39,13 +40,14 @@ const PRODUCTS = [
     slug: 'peptide-dew',
     title: 'Peptide Dew Plumping Serum',
     shortName: 'Peptide Dew',
-    productType: 'Plumping Serum',
+    productType: 'Serum Pengenyal Kulit',
     category: 'treat',
+    categoryLabel: 'Rawat',
     functions: ['plump', 'hydrate', 'smooth'],
-    subtitle: 'Plumping + Firming',
-    cardDescription: 'A mid-weight multi-peptide serum with a just-right blend of instant dew and deep bounce',
-    shortPdpCopy: 'Skincare-level biomimetic peptides for instant glass-skin bounce.',
-    price: 54,
+    subtitle: 'Mengenyalkan + Mengencangkan',
+    cardDescription: 'Serum multi-peptida bertekstur ringan dengan perpaduan pas antara efek glowing instan dan kekenyalan mendalam',
+    shortPdpCopy: 'Peptida biomimetik klinis untuk efek kulit kenyal dan glowing seketika.',
+    price: 389,
     reviews: 89,
     rating: 5.0,
     outerColor: '#fe5100',
@@ -58,10 +60,10 @@ const PRODUCTS = [
       'assets/images/hero-bottle.jpg'
     ],
     editorialImage: 'https://cdn.sanity.io/images/49bk2ju6/production/e5df7e050d250d9a70a2f8bde158f5d7fd32c659-3000x4000.jpg',
-    details: 'Powered by a 12% hexapeptide and copper tripeptide complex suspended in multi-molecular hyaluronic acid. Delivers immediate surface luminosity while reinforcing dermal density over time.',
+    details: 'Ditenagai oleh kompleks 12% hexapeptide dan copper tripeptide di dalam asam hialuronat multi-molekul. Memberikan kilau sehat di permukaan kulit sekaligus memperkuat kepadatan elastisitas kulit secara bertahap.',
     ingredients: 'Aqua/Water, Propanediol, Acetyl Hexapeptide-8, Copper Tripeptide-1, Palmitoyl Tripeptide-38, Hydrolyzed Hyaluronic Acid, Beta-Glucan, Polyglutamic Acid.',
-    howToUse: 'Press 2–3 drops into damp skin immediately after misting or cleansing. Can be mixed directly with Whipped Ceramide Barrier Cream for a cushioned glow.',
-    clinical: '96% demonstrated a +34% increase in skin elasticity and surface bounce within 14 days of twice-daily application.',
+    howToUse: 'Tepuk lembut 2–3 tetes pada kulit yang lembap setelah menggunakan face mist atau pembersih wajah. Dapat dicampur langsung dengan Whipped Ceramide Barrier Cream untuk ekstra kelembapan.',
+    clinical: '96% menunjukkan peningkatan +34% pada elastisitas dan kekenyalan permukaan kulit dalam 14 hari pemakaian rutin pagi dan malam.',
     pairings: ['whipped-ceramide', 'cloud-bounce', 'nectar-glaze', 'hydro-mist']
   },
   {
@@ -69,13 +71,14 @@ const PRODUCTS = [
     slug: 'whipped-ceramide',
     title: 'Whipped Ceramide Barrier Cream',
     shortName: 'Whipped Ceramide',
-    productType: 'Barrier Cream',
+    productType: 'Krim Pelindung Barrier',
     category: 'hydrate',
+    categoryLabel: 'Hidrasi',
     functions: ['hydrate', 'shield', 'calm'],
-    subtitle: 'Ultimate cushion + Hydration',
-    cardDescription: 'A nourishing, cloud-whipped butter cream for smoother texture and 72-hour barrier lock',
-    shortPdpCopy: 'Biomimetic 5-ceramide cloud cream that seals without suffocating.',
-    price: 48,
+    subtitle: 'Bantalan Lembut + Hidrasi 72 Jam',
+    cardDescription: 'Krim pelembap bertekstur whipped selembut awan untuk tekstur kulit lebih halus dan penguncian kelembapan 72 jam',
+    shortPdpCopy: 'Krim awan dengan 5-Ceramide biomimetik yang mengunci kelembapan tanpa rasa lengket.',
+    price: 349,
     reviews: 112,
     rating: 4.9,
     outerColor: '#ffcd01',
@@ -88,10 +91,10 @@ const PRODUCTS = [
       'assets/images/prod-1-cleanse.jpg'
     ],
     editorialImage: 'https://cdn.sanity.io/images/49bk2ju6/production/9ab9c5a50562a5b6011cc0a44f6336415dc4eb83-3000x4000.jpg',
-    details: 'Formulated with a golden 3:1:1 ratio of ceramides, cholesterol, and free fatty acids whipped into an airy soufflé texture. Melts on contact to repair compromised barriers and lock in actives.',
+    details: 'Diracik dengan rasio emas 3:1:1 ceramide, kolesterol, dan asam lemak bebas yang dikocok menjadi tekstur soufflé ringan. Langsung meleleh saat menyentuh kulit untuk memperbaiki barrier yang rusak dan mengunci nutrisi aktif.',
     ingredients: 'Aqua/Water, Squalane, Ceramide NP, Ceramide AP, Ceramide EOP, Cholesterol, Phytosphingosine, Butyrospermum Parkii (Shea) Butter, Madecassoside.',
-    howToUse: 'Warm a pearl-sized amount between fingertips and press over face and neck. Layer a second coat on dry zones as an overnight sleeping pack.',
-    clinical: 'Clinically proven to restore damaged skin barrier function 2.4x faster than untreated skin within 24 hours.',
+    howToUse: 'Hangatkan seukuran mutiara di ujung jari lalu tekan lembut ke seluruh wajah dan leher. Gunakan lapisan kedua pada area kering sebagai masker tidur semalaman.',
+    clinical: 'Terbukti secara klinis memulihkan fungsi skin barrier yang terganggu 2,4x lebih cepat dibandingkan kulit tanpa perawatan dalam 24 jam.',
     pairings: ['peptide-dew', 'nectar-glaze', 'cloud-bounce', 'the-architect']
   },
   {
@@ -99,13 +102,14 @@ const PRODUCTS = [
     slug: 'flash-polish',
     title: 'Flash Polish Enzyme Mask',
     shortName: 'Flash Polish',
-    productType: 'Enzyme Mask',
+    productType: 'Masker Eksfoliasi Enzim',
     category: 'treat',
+    categoryLabel: 'Rawat',
     functions: ['brighten', 'clarify', 'smooth'],
-    subtitle: 'Flexible resurfacing + Glow',
-    cardDescription: 'A gentle PHA and papaya enzyme jelly mask for all skin types and sensitivity levels',
-    shortPdpCopy: '10-minute pore-refining jelly mask for instant baby-soft clarity.',
-    price: 46,
+    subtitle: 'Eksfoliasi Lembut + Cerah Seketika',
+    cardDescription: 'Masker jeli lembut dengan kandungan PHA dan enzim pepaya untuk semua jenis kulit termasuk kulit sensitif',
+    shortPdpCopy: 'Masker jeli 10 menit penghalus pori untuk kulit cerah dan selembut bayi.',
+    price: 329,
     reviews: 41,
     rating: 4.8,
     outerColor: '#7c55c6',
@@ -118,10 +122,10 @@ const PRODUCTS = [
       'assets/images/prod-1-cleanse.jpg'
     ],
     editorialImage: 'https://cdn.sanity.io/images/49bk2ju6/production/2386a3c4df265b504284c5f5a1fa1e16801e8f3f-3000x4000.jpg',
-    details: 'Combines 8% Gluconolactone (PHA) with fermented pomegranate and papaya enzymes to dissolve dead surface cells without micro-tears or acid sting.',
+    details: 'Menggabungkan 8% Gluconolactone (PHA) dengan enzim buah delima terfermentasi dan pepaya untuk meluruhkan sel kulit mati secara lembut tanpa rasa perih atau iritasi.',
     ingredients: 'Aqua/Water, Gluconolactone, Lactobacillus/Punica Granatum Fruit Ferment Extract, Papain, Niacinamide, Bisabolol, Cyanocobalamin.',
-    howToUse: 'Apply an even, visible layer to clean, dry skin. Leave on for 10–15 minutes, then rinse with warm water. Follow with Hydro-Mist and Barrier Cream.',
-    clinical: '92% saw visibly smaller-looking pores and smoother makeup application after a single 10-minute session.',
+    howToUse: 'Oleskan lapisan merata pada kulit yang bersih dan kering. Diamkan selama 10–15 menit, lalu bilas dengan air hangat. Lanjutkan dengan Hydro-Mist dan Barrier Cream.',
+    clinical: '92% melihat tampilan pori tampak lebih ringkas dan hasil riasan lebih menempel halus hanya setelah satu kali pemakaian 10 menit.',
     pairings: ['hydro-mist', 'whipped-ceramide', 'nectar-glaze', 'cloud-bounce']
   },
   {
@@ -129,13 +133,14 @@ const PRODUCTS = [
     slug: 'nectar-glaze',
     title: 'Nectar Glaze Barrier Oil',
     shortName: 'Nectar Glaze',
-    productType: 'Barrier Oil',
+    productType: 'Minyak Wajah Barrier',
     category: 'barrier',
+    categoryLabel: 'Barrier',
     functions: ['shield', 'hydrate', 'brighten'],
-    subtitle: 'High glow + Smooth finish',
-    cardDescription: 'A weightless squalane and prickly pear oil for instantly supple skin and a glass-glow finish',
-    shortPdpCopy: 'Dry-touch botanical lipid oil for high-wattage radiance.',
-    price: 52,
+    subtitle: 'Kilau Maksimal + Tekstur Halus',
+    cardDescription: 'Face oil ringan dari squalane dan prickly pear untuk kulit langsung kenyal dengan hasil akhir glass-glow',
+    shortPdpCopy: 'Minyak lipid botani cepat meresap untuk kilau sehat tanpa rasa berminyak.',
+    price: 379,
     reviews: 53,
     rating: 4.9,
     outerColor: '#7c55c6',
@@ -148,10 +153,10 @@ const PRODUCTS = [
       'assets/images/hero-bottle.jpg'
     ],
     editorialImage: 'https://cdn.sanity.io/images/49bk2ju6/production/2dfc10d0c5ca281dc16e3b1a59eecf6bf710e44f-3000x4000.jpg',
-    details: 'Cold-pressed prickly pear seed oil, sugarcane squalane, and oil-soluble Vitamin C (THD Ascorbate) cushion skin in antioxidant lipids with zero greasy residue.',
-    ingredients: 'Squalane, Opuntia Ficus-Indica Seed Oil, Tetrahexyldecyl Ascorbate,Hippophae Rhamnoides (Sea Buckthorn) Oil, Tocopherol, Bisabolol.',
-    howToUse: 'Pat 2–4 drops as the final step of your routine to seal in moisture, or blend 1 drop into foundation for an editorial dewy finish.',
-    clinical: '100% non-comedogenic in 28-day clinical testing. Delivers +68% immediate surface radiance.',
+    details: 'Minyak biji prickly pear perasan dingin, squalane tebu, dan Vitamin C larut minyak (THD Ascorbate) membungkus kulit dalam lipid antioksidan tanpa meninggalkan residu lengket.',
+    ingredients: 'Squalane, Opuntia Ficus-Indica Seed Oil, Tetrahexyldecyl Ascorbate, Hippophae Rhamnoides (Sea Buckthorn) Oil, Tocopherol, Bisabolol.',
+    howToUse: 'Tepuk lembut 2–4 tetes sebagai langkah terakhir rutinitas skincare untuk mengunci kelembapan, atau campurkan 1 tetes ke foundation untuk hasil akhir dewy.',
+    clinical: '100% non-komedogenik dalam uji klinis 28 hari. Memberikan peningkatan kilau permukaan kulit +68% seketika.',
     pairings: ['whipped-ceramide', 'peptide-dew', 'the-architect', 'cloud-bounce']
   },
   {
@@ -159,13 +164,14 @@ const PRODUCTS = [
     slug: 'hydro-mist',
     title: 'Hydro-Mist Microbiome Tonic',
     shortName: 'Hydro-Mist',
-    productType: 'Microbiome Tonic',
+    productType: 'Toner Mist Mikrobioma',
     category: 'hydrate',
+    categoryLabel: 'Hidrasi',
     functions: ['hydrate', 'calm', 'reset'],
-    subtitle: 'Buildable dew + Biome prep',
-    cardDescription: 'A super-sheer postbiotic mist for soft, bouncy hydration and instant redness relief',
-    shortPdpCopy: 'Ultra-fine ectoin & postbiotic cloud mist for on-demand reset.',
-    price: 36,
+    subtitle: 'Hidrasi Berlapis + Penenang Kemerahan',
+    cardDescription: 'Face mist postbiotik super halus untuk hidrasi kenyal seketika dan meredakan kemerahan secara instan',
+    shortPdpCopy: 'Kabut mikro ectoin & postbiotik untuk penyegaran kulit kapan saja.',
+    price: 269,
     reviews: 77,
     rating: 4.9,
     outerColor: '#00b241',
@@ -178,10 +184,10 @@ const PRODUCTS = [
       'assets/images/prod-1-cleanse.jpg'
     ],
     editorialImage: 'https://cdn.sanity.io/images/49bk2ju6/production/d6542ec63199b696d8e42b5bf088f42c60092b72-3000x4000.jpg',
-    details: 'Dispensed through a custom micro-nebulizer nozzle, Hydro-Mist blankets skin in 2% Ectoin, lactobacillus ferment, and Centella Asiatica to sandwich moisture between every skincare step.',
+    details: 'Disemprotkan melalui nozzle micro-nebulizer khusus, Hydro-Mist menyelimuti kulit dengan 2% Ectoin, fermentasi lactobacillus, dan Centella Asiatica untuk mengunci hidrasi di setiap sela tahapan skincare.',
     ingredients: 'Aqua/Water, Ectoin, Lactobacillus Ferment Lysate, Centella Asiatica Extract, Betaine, Sodium Hyaluronate, Dipotassium Glycyrrhizate.',
-    howToUse: 'Mist generously between serum and moisturizer steps to boost absorption, or spritz over makeup throughout the day.',
-    clinical: 'Reduces visible facial redness and thermal skin temperature within 60 seconds of application.',
+    howToUse: 'Semprotkan secara merata di antara tahapan serum dan pelembap untuk meningkatkan penyerapan, atau gunakan di atas makeup sepanjang hari.',
+    clinical: 'Meredakan tampilan kemerahan wajah dan menurunkan suhu permukaan kulit dalam 60 detik setelah pemakaian.',
     pairings: ['peptide-dew', 'cloud-bounce', 'whipped-ceramide', 'flash-polish']
   },
   {
@@ -189,13 +195,14 @@ const PRODUCTS = [
     slug: 'the-architect',
     title: 'The Architect Retinal Emulsion',
     shortName: 'The Architect',
-    productType: 'Retinal Emulsion',
+    productType: 'Emulsi Malam Retinal',
     category: 'barrier',
+    categoryLabel: 'Barrier',
     functions: ['smooth', 'plump', 'reset'],
-    subtitle: 'Ultimate repair + Night renewal',
-    cardDescription: 'A clinical-grade encapsulated retinal serum for 360°, inside-out cellular renewal',
-    shortPdpCopy: '0.1% Encapsulated Retinaldehyde for rapid renewal without the purge.',
-    price: 62,
+    subtitle: 'Perbaikan Total + Regenerasi Malam',
+    cardDescription: 'Serum retinal terenkapsulasi berstandar klinis untuk pembaruan sel kulit 360° dari dalam',
+    shortPdpCopy: '0.1% Encapsulated Retinaldehyde untuk regenerasi cepat tanpa iritasi.',
+    price: 429,
     reviews: 95,
     rating: 5.0,
     outerColor: '#ffcd01',
@@ -208,10 +215,10 @@ const PRODUCTS = [
       'assets/images/hero-bottle.jpg'
     ],
     editorialImage: 'assets/images/hero-model.jpg',
-    details: 'Works 11x faster than standard retinol while remaining gentle on sensitive barriers thanks to cyclodextrin time-release encapsulation and soothing oat ceramides.',
+    details: 'Bekerja 11x lebih cepat dibandingkan retinol standar namun tetap lembut pada skin barrier sensitif berkat enkapsulasi pelepasan berkala cyclodextrin dan oat ceramide yang menenangkan.',
     ingredients: 'Aqua/Water, Caprylic/Capric Triglyceride, Retinal (0.1%), Avena Sativa (Oat) Kernel Oil, Bakuchiol, Ceramide NP, Niacinamide, Squalane.',
-    howToUse: 'Apply 1 pump to clean, dry skin in the evening. Follow with Whipped Ceramide Barrier Cream. Always wear SPF the next morning.',
-    clinical: '94% saw a visible reduction in fine lines, post-blemish marks, and uneven texture in 4 weeks with zero flaking.',
+    howToUse: 'Aplikasikan 1 pump pada kulit bersih dan kering di malam hari. Lanjutkan dengan Whipped Ceramide Barrier Cream. Selalu gunakan sunscreen keesokan paginya.',
+    clinical: '94% melihat garis halus, noda bekas jerawat, dan tekstur tidak merata tampak berkurang secara nyata dalam 4 minggu tanpa pengelupasan.',
     pairings: ['whipped-ceramide', 'nectar-glaze', 'cloud-bounce', 'hydro-mist']
   }
 ];
@@ -219,19 +226,19 @@ const PRODUCTS = [
 const COLLECTIONS = [
   {
     slug: 'cleanse',
-    title: 'Cleanse',
+    title: 'Pembersih',
     hoverColor: '#4190de',
     image: 'https://cdn.sanity.io/images/49bk2ju6/production/9ab9c5a50562a5b6011cc0a44f6336415dc4eb83-3000x4000.jpg'
   },
   {
     slug: 'treat',
-    title: 'Treat',
+    title: 'Rawat',
     hoverColor: '#fe5100',
     image: 'https://cdn.sanity.io/images/49bk2ju6/production/2386a3c4df265b504284c5f5a1fa1e16801e8f3f-3000x4000.jpg'
   },
   {
     slug: 'hydrate',
-    title: 'Hydrate',
+    title: 'Hidrasi',
     hoverColor: '#ffcd01',
     image: 'https://cdn.sanity.io/images/49bk2ju6/production/2dfc10d0c5ca281dc16e3b1a59eecf6bf710e44f-3000x4000.jpg'
   },
@@ -243,13 +250,34 @@ const COLLECTIONS = [
   }
 ];
 
+const CATEGORY_LABELS = {
+  cleanse: 'PEMBERSIH',
+  treat: 'PERAWATAN INTENSIF',
+  hydrate: 'HIDRASI KULIT',
+  barrier: 'PROTEKSI BARRIER'
+};
+
+const FUNCTION_LABELS = {
+  hydrate: 'MANFAAT: MELEMBAPKAN',
+  plump: 'MANFAAT: MENGENYALKAN',
+  brighten: 'MANFAAT: MENCERAHKAN',
+  calm: 'MANFAAT: MENENANGKAN',
+  smooth: 'MANFAAT: MENGHALUSKAN',
+  shield: 'MANFAAT: PROTEKSI BARRIER',
+  cleanse: 'MANFAAT: MEMBERSIHKAN'
+};
+
 // Application State
 let cart = [
   { id: 'cloud-bounce', qty: 1 }
 ];
 let activeFilter = null;
 let currentPdpProduct = null;
-const FREE_SHIPPING_THRESHOLD = 75;
+const FREE_SHIPPING_THRESHOLD = 500;
+
+function formatRp(amountInThousands) {
+  return `Rp ${amountInThousands}rb`;
+}
 
 // ============================================================================
 // Initialization
@@ -274,8 +302,8 @@ function renderProductCarousel(productList) {
     <div class="carousel-slide">
       <article class="product-card" data-product-id="${p.id}" aria-label="${p.title}">
         <div class="product-card-media">
-          <img class="product-card-img-main" src="${p.mainImage}" alt="${p.title} solo packshot" loading="lazy" />
-          <img class="product-card-img-hover" src="${p.hoverImage}" alt="${p.title} stacked texture packshot" loading="lazy" />
+          <img class="product-card-img-main" src="${p.mainImage}" alt="${p.title} foto produk" loading="lazy" />
+          <img class="product-card-img-hover" src="${p.hoverImage}" alt="${p.title} tampilan produk" loading="lazy" />
         </div>
 
         <div class="product-card-hover-Well">
@@ -296,7 +324,7 @@ function renderProductCarousel(productList) {
                 <p class="type-body mobile-subtitle">${p.subtitle}</p>
               </div>
             </div>
-            <p class="type-title">$${p.price}</p>
+            <p class="type-title">${formatRp(p.price)}</p>
           </div>
         </div>
       </article>
@@ -323,7 +351,7 @@ function renderCollectionCarousel() {
   track.innerHTML = COLLECTIONS.map((c) => `
     <div class="carousel-slide">
       <div class="collection-card" data-category="${c.slug}" style="--col-hover-color: ${c.hoverColor}" role="button" tabindex="0" aria-label="${c.title}">
-        <img src="${c.image}" alt="${c.title} editorial portrait" loading="lazy" />
+        <img src="${c.image}" alt="Koleksi ${c.title}" loading="lazy" />
         <div class="collection-card-scrim"></div>
         <div class="collection-card-color-overlay"></div>
         <h3 class="collection-card-title type-headings">${c.title}</h3>
@@ -335,7 +363,7 @@ function renderCollectionCarousel() {
     card.addEventListener('click', () => {
       if (track.dataset.dragging === 'true') return;
       const cat = card.getAttribute('data-category');
-      applyCategoryOrFunctionFilter({ type: 'category', value: cat, label: cat.toUpperCase() });
+      applyCategoryOrFunctionFilter({ type: 'category', value: cat, label: CATEGORY_LABELS[cat] || cat.toUpperCase() });
     });
   });
 }
@@ -371,7 +399,7 @@ function setupNavigationAndFilters() {
         closeProductDetail();
         document.getElementById('products-section')?.scrollIntoView({ behavior: 'smooth' });
       } else {
-        applyCategoryOrFunctionFilter({ type: 'category', value: cat, label: cat.toUpperCase() });
+        applyCategoryOrFunctionFilter({ type: 'category', value: cat, label: CATEGORY_LABELS[cat] || cat.toUpperCase() });
       }
     });
   });
@@ -381,7 +409,7 @@ function setupNavigationAndFilters() {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const fn = btn.getAttribute('data-nav-function');
-      applyCategoryOrFunctionFilter({ type: 'function', value: fn, label: `BENEFIT: ${fn.toUpperCase()}` });
+      applyCategoryOrFunctionFilter({ type: 'function', value: fn, label: FUNCTION_LABELS[fn] || `MANFAAT: ${fn.toUpperCase()}` });
     });
   });
 
@@ -421,7 +449,7 @@ function applyCategoryOrFunctionFilter({ type, value, label }) {
   const clearBtn = document.getElementById('clear-filter-btn');
 
   if (headingEl) headingEl.textContent = label;
-  if (subEl) subEl.textContent = `${filtered.length} clinical formulas designed to mix, layer, and match.`;
+  if (subEl) subEl.textContent = `${filtered.length} formula klinis yang dirancang untuk dipadukan dan dilayer.`;
   if (clearBtn) clearBtn.style.display = 'inline-flex';
 
   document.querySelectorAll('[data-nav-category]').forEach((btn) => {
@@ -439,8 +467,8 @@ function clearFilter() {
   const subEl = document.getElementById('carousel-subheading');
   const clearBtn = document.getElementById('clear-filter-btn');
 
-  if (headingEl) headingEl.textContent = 'Performance-powered play';
-  if (subEl) subEl.textContent = '21 formulas. Made to be mixed, layered, and matched.';
+  if (headingEl) headingEl.textContent = 'Performa klinis yang seru';
+  if (subEl) subEl.textContent = '21 formula aktif. Dirancang untuk dipadukan, dilayer, dan dikombinasikan.';
   if (clearBtn) clearBtn.style.display = 'none';
 
   document.querySelectorAll('[data-nav-category]').forEach((btn) => {
@@ -472,15 +500,15 @@ function openProductDetail(productId) {
           <img id="pdp-stage-img" src="${product.galleryImages[0]}" alt="${product.title}" />
           <div class="pdp-thumbs" style="--pdp-color: ${product.outerColor}">
             ${product.galleryImages.map((imgUrl, idx) => `
-              <button type="button" class="pdp-thumb-btn" data-thumb-src="${imgUrl}" aria-label="Show image ${idx + 1}" aria-pressed="${idx === 0 ? 'true' : 'false'}">
-                <img src="${imgUrl}" alt="Thumbnail ${idx + 1}" />
+              <button type="button" class="pdp-thumb-btn" data-thumb-src="${imgUrl}" aria-label="Lihat foto ${idx + 1}" aria-pressed="${idx === 0 ? 'true' : 'false'}">
+                <img src="${imgUrl}" alt="Foto ${idx + 1}" />
                 <div class="pdp-thumb-bar"></div>
               </button>
             `).join('')}
           </div>
         </div>
         <div class="pdp-editorial-shot">
-          <img src="${product.editorialImage}" alt="${product.title} editorial lifestyle" loading="lazy" />
+          <img src="${product.editorialImage}" alt="${product.title} potret editorial" loading="lazy" />
         </div>
       </div>
 
@@ -490,10 +518,10 @@ function openProductDetail(productId) {
           <div class="pdp-panel-inner">
             <div style="margin-bottom: 24px; display: flex; align-items: center; gap: 8px;" class="type-body">
               <button type="button" id="pdp-back-btn" class="footer-nav-link" style="padding:0; display:inline-flex; align-items:center; gap:6px;">
-                <span>← Back to Shop All</span>
+                <span>← Kembali ke Semua Produk</span>
               </button>
               <span>/</span>
-              <span class="uppercase">${product.category}</span>
+              <span class="uppercase">${product.categoryLabel || product.category}</span>
             </div>
 
             <div class="pdp-header-row">
@@ -507,33 +535,33 @@ function openProductDetail(productId) {
             </div>
 
             <div class="pdp-rating-row">
-              <div class="stars-row" aria-label="${product.rating} out of 5 stars">
+              <div class="stars-row" aria-label="Rating ${product.rating} dari 5 bintang">
                 ${[1, 2, 3, 4, 5].map(() => `
                   <svg viewBox="0 0 24 24" class="star-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"></path></svg>
                 `).join('')}
               </div>
-              <span class="type-body">(${product.reviews} Reviews)</span>
+              <span class="type-body">(${product.reviews} Ulasan)</span>
             </div>
 
             <p class="type-body pdp-short-desc">${product.shortPdpCopy}</p>
 
             <button type="button" id="pdp-add-to-cart" class="button button-primary button-hover-color" style="width: 100%; --button-hover-color: ${product.outerColor}">
               <span style="display:flex; width:100%; justify-content:space-between; align-items:center;">
-                <span>Add to Cart</span>
-                <span>$${product.price}</span>
+                <span>Tambah ke Keranjang</span>
+                <span>${formatRp(product.price)}</span>
               </span>
             </button>
 
             <!-- 4 Signature Color-Coded Accordions -->
             <div class="pdp-accordions">
-              ${renderAccordionItem('Details', product.details, '#fe5100', '#4190de', true)}
-              ${renderAccordionItem('Ingredients', product.ingredients, '#ffcd01', '#7c55c6', false)}
-              ${renderAccordionItem('How To Use', product.howToUse, '#00b241', '#eb6fbd', false)}
-              ${renderAccordionItem('Clinically Proven', product.clinical, '#7c55c6', '#ffcd01', false)}
+              ${renderAccordionItem('Detail Produk', product.details, '#fe5100', '#4190de', true)}
+              ${renderAccordionItem('Kandungan Aktif', product.ingredients, '#ffcd01', '#7c55c6', false)}
+              ${renderAccordionItem('Cara Pakai', product.howToUse, '#00b241', '#eb6fbd', false)}
+              ${renderAccordionItem('Teruji Klinis', product.clinical, '#7c55c6', '#ffcd01', false)}
             </div>
 
-            <!-- Cross-sell List: "Supple with..." -->
-            <h2 class="type-title cross-sell-heading">Supple with...</h2>
+            <!-- Cross-sell List: "Padukan dengan..." -->
+            <h2 class="type-title cross-sell-heading">Padukan dengan...</h2>
             <ul class="cross-sell-list">
               ${crossSellProducts.map((cp) => `
                 <li class="cross-sell-item">
@@ -545,7 +573,7 @@ function openProductDetail(productId) {
                     <p class="type-body">${cp.subtitle}</p>
                   </div>
                   <div class="cross-sell-action">
-                    <button type="button" class="button button-primary" data-quick-add="${cp.id}">Add + $${cp.price}</button>
+                    <button type="button" class="button button-primary" data-quick-add="${cp.id}">+ ${formatRp(cp.price)}</button>
                   </div>
                 </li>
               `).join('')}
@@ -749,22 +777,22 @@ function updateCartUI() {
     const pct = Math.min(100, (subtotal / FREE_SHIPPING_THRESHOLD) * 100);
     shippingFill.style.width = `${pct}%`;
     shippingText.textContent = remaining === 0
-      ? 'Your order ships free!'
-      : `You are $${remaining} away from free shipping.`;
+      ? 'Selamat! Pesananmu dapat Gratis Ongkir!'
+      : `Tambah ${formatRp(remaining)} lagi untuk Gratis Ongkir.`;
   }
 
   // Cart items list
   const container = document.getElementById('cart-items-container');
   const subtotalEl = document.getElementById('cart-subtotal-price');
-  if (subtotalEl) subtotalEl.textContent = `$${subtotal}`;
+  if (subtotalEl) subtotalEl.textContent = formatRp(subtotal);
 
   if (!container) return;
 
   if (cart.length === 0) {
     container.innerHTML = `
       <div style="padding: 48px 0; text-align: center;">
-        <p class="type-body" style="margin-bottom: 20px;">Your cart is empty.</p>
-        <button type="button" class="button button-primary" id="empty-cart-shop-btn">Shop All</button>
+        <p class="type-body" style="margin-bottom: 20px;">Keranjang belanjamu masih kosong.</p>
+        <button type="button" class="button button-primary" id="empty-cart-shop-btn">Mulai Belanja</button>
       </div>
     `;
     document.getElementById('empty-cart-shop-btn')?.addEventListener('click', closeCartDrawer);
@@ -787,13 +815,13 @@ function updateCartUI() {
             <div style="flex:1;">
               <div style="display:flex; justify-content:space-between; gap:8px;">
                 <h4 class="type-title">${p.shortName}</h4>
-                <span class="type-title">$${p.price * item.qty}</span>
+                <span class="type-title">${formatRp(p.price * item.qty)}</span>
               </div>
               <p class="type-body" style="margin-top:2px; color: var(--color-gray-500);">${p.productType}</p>
               <div class="cart-qty-pill">
-                <button type="button" class="type-title" data-cart-dec="${p.id}" aria-label="Decrease quantity">−</button>
+                <button type="button" class="type-title" data-cart-dec="${p.id}" aria-label="Kurangi jumlah">−</button>
                 <span class="type-body">${item.qty}</span>
-                <button type="button" class="type-title" data-cart-inc="${p.id}" aria-label="Increase quantity">+</button>
+                <button type="button" class="type-title" data-cart-inc="${p.id}" aria-label="Tambah jumlah">+</button>
               </div>
             </div>
           </div>
@@ -803,7 +831,7 @@ function updateCartUI() {
 
     ${upsells.length ? `
       <div style="margin-top: 32px;">
-        <h4 class="type-headings" style="margin-bottom: 12px;">We think you may also like:</h4>
+        <h4 class="type-headings" style="margin-bottom: 12px;">Cocok dipadukan dengan:</h4>
         ${upsells.map((u) => `
           <div class="cart-line-item" style="border-bottom: none; padding: 8px 0;">
             <div class="cart-line-thumb">
@@ -814,7 +842,7 @@ function updateCartUI() {
               <p class="type-body" style="margin-top:2px;">${u.subtitle}</p>
             </div>
             <button type="button" class="button button-outline" style="height:34px; padding: 0 14px;" data-cart-upsell="${u.id}">
-              Add $${u.price}
+              + ${formatRp(u.price)}
             </button>
           </div>
         `).join('')}
